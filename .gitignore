@@ -1,0 +1,18 @@
+# Environments & Secrets
+.env
+.env.*
+.venv/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Vector DB & Storage
+chroma_db/
+downloads/
+.langgraph_api/
